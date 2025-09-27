@@ -1,0 +1,1026 @@
+<mujoco>
+    <body name="object_1" pos="0.00 0.00 0.2">
+      <joint name="obj_1" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_2" pos="0.02 0.00 0.2">
+      <joint name="obj_2" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_3" pos="0.04 0.00 0.2">
+      <joint name="obj_3" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_4" pos="0.06 0.00 0.2">
+      <joint name="obj_4" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_5" pos="0.08 0.00 0.2">
+      <joint name="obj_5" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_6" pos="0.10 0.00 0.2">
+      <joint name="obj_6" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_7" pos="0.12 0.00 0.2">
+      <joint name="obj_7" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_8" pos="0.14 0.00 0.2">
+      <joint name="obj_8" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_9" pos="0.16 0.00 0.2">
+      <joint name="obj_9" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_10" pos="0.18 0.00 0.2">
+      <joint name="obj_10" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_11" pos="0.20 0.00 0.2">
+      <joint name="obj_11" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_12" pos="0.22 0.00 0.2">
+      <joint name="obj_12" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_13" pos="0.24 0.00 0.2">
+      <joint name="obj_13" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_14" pos="0.26 0.00 0.2">
+      <joint name="obj_14" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_15" pos="0.28 0.00 0.2">
+      <joint name="obj_15" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_16" pos="0.30 0.00 0.2">
+      <joint name="obj_16" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_17" pos="0.00 0.02 0.2">
+      <joint name="obj_17" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_18" pos="0.02 0.02 0.2">
+      <joint name="obj_18" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_19" pos="0.04 0.02 0.2">
+      <joint name="obj_19" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_20" pos="0.06 0.02 0.2">
+      <joint name="obj_20" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_21" pos="0.08 0.02 0.2">
+      <joint name="obj_21" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_22" pos="0.10 0.02 0.2">
+      <joint name="obj_22" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_23" pos="0.12 0.02 0.2">
+      <joint name="obj_23" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_24" pos="0.14 0.02 0.2">
+      <joint name="obj_24" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_25" pos="0.16 0.02 0.2">
+      <joint name="obj_25" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_26" pos="0.18 0.02 0.2">
+      <joint name="obj_26" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_27" pos="0.20 0.02 0.2">
+      <joint name="obj_27" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_28" pos="0.22 0.02 0.2">
+      <joint name="obj_28" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_29" pos="0.24 0.02 0.2">
+      <joint name="obj_29" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_30" pos="0.26 0.02 0.2">
+      <joint name="obj_30" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_31" pos="0.28 0.02 0.2">
+      <joint name="obj_31" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_32" pos="0.30 0.02 0.2">
+      <joint name="obj_32" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_33" pos="0.00 0.04 0.2">
+      <joint name="obj_33" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_34" pos="0.02 0.04 0.2">
+      <joint name="obj_34" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_35" pos="0.04 0.04 0.2">
+      <joint name="obj_35" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_36" pos="0.06 0.04 0.2">
+      <joint name="obj_36" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_37" pos="0.08 0.04 0.2">
+      <joint name="obj_37" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_38" pos="0.10 0.04 0.2">
+      <joint name="obj_38" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_39" pos="0.12 0.04 0.2">
+      <joint name="obj_39" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_40" pos="0.14 0.04 0.2">
+      <joint name="obj_40" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_41" pos="0.16 0.04 0.2">
+      <joint name="obj_41" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_42" pos="0.18 0.04 0.2">
+      <joint name="obj_42" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_43" pos="0.20 0.04 0.2">
+      <joint name="obj_43" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_44" pos="0.22 0.04 0.2">
+      <joint name="obj_44" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_45" pos="0.24 0.04 0.2">
+      <joint name="obj_45" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_46" pos="0.26 0.04 0.2">
+      <joint name="obj_46" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_47" pos="0.28 0.04 0.2">
+      <joint name="obj_47" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_48" pos="0.30 0.04 0.2">
+      <joint name="obj_48" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_49" pos="0.00 0.06 0.2">
+      <joint name="obj_49" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_50" pos="0.02 0.06 0.2">
+      <joint name="obj_50" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_51" pos="0.04 0.06 0.2">
+      <joint name="obj_51" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_52" pos="0.06 0.06 0.2">
+      <joint name="obj_52" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_53" pos="0.08 0.06 0.2">
+      <joint name="obj_53" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_54" pos="0.10 0.06 0.2">
+      <joint name="obj_54" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_55" pos="0.12 0.06 0.2">
+      <joint name="obj_55" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_56" pos="0.14 0.06 0.2">
+      <joint name="obj_56" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_57" pos="0.16 0.06 0.2">
+      <joint name="obj_57" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_58" pos="0.18 0.06 0.2">
+      <joint name="obj_58" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_59" pos="0.20 0.06 0.2">
+      <joint name="obj_59" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_60" pos="0.22 0.06 0.2">
+      <joint name="obj_60" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_61" pos="0.24 0.06 0.2">
+      <joint name="obj_61" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_62" pos="0.26 0.06 0.2">
+      <joint name="obj_62" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_63" pos="0.28 0.06 0.2">
+      <joint name="obj_63" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_64" pos="0.30 0.06 0.2">
+      <joint name="obj_64" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_65" pos="0.00 0.08 0.2">
+      <joint name="obj_65" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_66" pos="0.02 0.08 0.2">
+      <joint name="obj_66" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_67" pos="0.04 0.08 0.2">
+      <joint name="obj_67" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_68" pos="0.06 0.08 0.2">
+      <joint name="obj_68" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_69" pos="0.08 0.08 0.2">
+      <joint name="obj_69" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_70" pos="0.10 0.08 0.2">
+      <joint name="obj_70" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_71" pos="0.12 0.08 0.2">
+      <joint name="obj_71" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_72" pos="0.14 0.08 0.2">
+      <joint name="obj_72" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_73" pos="0.16 0.08 0.2">
+      <joint name="obj_73" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_74" pos="0.18 0.08 0.2">
+      <joint name="obj_74" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_75" pos="0.20 0.08 0.2">
+      <joint name="obj_75" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_76" pos="0.22 0.08 0.2">
+      <joint name="obj_76" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_77" pos="0.24 0.08 0.2">
+      <joint name="obj_77" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_78" pos="0.26 0.08 0.2">
+      <joint name="obj_78" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_79" pos="0.28 0.08 0.2">
+      <joint name="obj_79" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_80" pos="0.30 0.08 0.2">
+      <joint name="obj_80" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_81" pos="0.00 0.10 0.2">
+      <joint name="obj_81" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_82" pos="0.02 0.10 0.2">
+      <joint name="obj_82" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_83" pos="0.04 0.10 0.2">
+      <joint name="obj_83" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_84" pos="0.06 0.10 0.2">
+      <joint name="obj_84" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_85" pos="0.08 0.10 0.2">
+      <joint name="obj_85" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_86" pos="0.10 0.10 0.2">
+      <joint name="obj_86" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_87" pos="0.12 0.10 0.2">
+      <joint name="obj_87" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_88" pos="0.14 0.10 0.2">
+      <joint name="obj_88" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_89" pos="0.16 0.10 0.2">
+      <joint name="obj_89" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_90" pos="0.18 0.10 0.2">
+      <joint name="obj_90" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_91" pos="0.20 0.10 0.2">
+      <joint name="obj_91" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_92" pos="0.22 0.10 0.2">
+      <joint name="obj_92" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_93" pos="0.24 0.10 0.2">
+      <joint name="obj_93" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_94" pos="0.26 0.10 0.2">
+      <joint name="obj_94" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_95" pos="0.28 0.10 0.2">
+      <joint name="obj_95" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_96" pos="0.30 0.10 0.2">
+      <joint name="obj_96" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_97" pos="0.00 0.12 0.2">
+      <joint name="obj_97" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_98" pos="0.02 0.12 0.2">
+      <joint name="obj_98" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_99" pos="0.04 0.12 0.2">
+      <joint name="obj_99" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_100" pos="0.06 0.12 0.2">
+      <joint name="obj_100" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_101" pos="0.08 0.12 0.2">
+      <joint name="obj_101" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_102" pos="0.10 0.12 0.2">
+      <joint name="obj_102" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_103" pos="0.12 0.12 0.2">
+      <joint name="obj_103" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_104" pos="0.14 0.12 0.2">
+      <joint name="obj_104" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_105" pos="0.16 0.12 0.2">
+      <joint name="obj_105" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_106" pos="0.18 0.12 0.2">
+      <joint name="obj_106" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_107" pos="0.20 0.12 0.2">
+      <joint name="obj_107" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_108" pos="0.22 0.12 0.2">
+      <joint name="obj_108" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_109" pos="0.24 0.12 0.2">
+      <joint name="obj_109" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_110" pos="0.26 0.12 0.2">
+      <joint name="obj_110" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_111" pos="0.28 0.12 0.2">
+      <joint name="obj_111" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_112" pos="0.30 0.12 0.2">
+      <joint name="obj_112" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_113" pos="0.00 0.14 0.2">
+      <joint name="obj_113" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_114" pos="0.02 0.14 0.2">
+      <joint name="obj_114" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_115" pos="0.04 0.14 0.2">
+      <joint name="obj_115" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_116" pos="0.06 0.14 0.2">
+      <joint name="obj_116" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_117" pos="0.08 0.14 0.2">
+      <joint name="obj_117" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_118" pos="0.10 0.14 0.2">
+      <joint name="obj_118" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_119" pos="0.12 0.14 0.2">
+      <joint name="obj_119" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_120" pos="0.14 0.14 0.2">
+      <joint name="obj_120" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_121" pos="0.16 0.14 0.2">
+      <joint name="obj_121" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_122" pos="0.18 0.14 0.2">
+      <joint name="obj_122" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_123" pos="0.20 0.14 0.2">
+      <joint name="obj_123" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_124" pos="0.22 0.14 0.2">
+      <joint name="obj_124" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_125" pos="0.24 0.14 0.2">
+      <joint name="obj_125" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_126" pos="0.26 0.14 0.2">
+      <joint name="obj_126" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_127" pos="0.28 0.14 0.2">
+      <joint name="obj_127" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_128" pos="0.30 0.14 0.2">
+      <joint name="obj_128" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_129" pos="0.00 0.16 0.2">
+      <joint name="obj_129" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_130" pos="0.02 0.16 0.2">
+      <joint name="obj_130" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_131" pos="0.04 0.16 0.2">
+      <joint name="obj_131" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_132" pos="0.06 0.16 0.2">
+      <joint name="obj_132" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_133" pos="0.08 0.16 0.2">
+      <joint name="obj_133" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_134" pos="0.10 0.16 0.2">
+      <joint name="obj_134" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_135" pos="0.12 0.16 0.2">
+      <joint name="obj_135" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_136" pos="0.14 0.16 0.2">
+      <joint name="obj_136" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_137" pos="0.16 0.16 0.2">
+      <joint name="obj_137" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_138" pos="0.18 0.16 0.2">
+      <joint name="obj_138" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_139" pos="0.20 0.16 0.2">
+      <joint name="obj_139" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_140" pos="0.22 0.16 0.2">
+      <joint name="obj_140" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_141" pos="0.24 0.16 0.2">
+      <joint name="obj_141" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_142" pos="0.26 0.16 0.2">
+      <joint name="obj_142" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_143" pos="0.28 0.16 0.2">
+      <joint name="obj_143" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_144" pos="0.30 0.16 0.2">
+      <joint name="obj_144" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_145" pos="0.00 0.18 0.2">
+      <joint name="obj_145" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_146" pos="0.02 0.18 0.2">
+      <joint name="obj_146" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_147" pos="0.04 0.18 0.2">
+      <joint name="obj_147" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_148" pos="0.06 0.18 0.2">
+      <joint name="obj_148" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_149" pos="0.08 0.18 0.2">
+      <joint name="obj_149" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_150" pos="0.10 0.18 0.2">
+      <joint name="obj_150" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_151" pos="0.12 0.18 0.2">
+      <joint name="obj_151" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_152" pos="0.14 0.18 0.2">
+      <joint name="obj_152" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_153" pos="0.16 0.18 0.2">
+      <joint name="obj_153" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_154" pos="0.18 0.18 0.2">
+      <joint name="obj_154" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_155" pos="0.20 0.18 0.2">
+      <joint name="obj_155" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_156" pos="0.22 0.18 0.2">
+      <joint name="obj_156" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_157" pos="0.24 0.18 0.2">
+      <joint name="obj_157" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_158" pos="0.26 0.18 0.2">
+      <joint name="obj_158" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_159" pos="0.28 0.18 0.2">
+      <joint name="obj_159" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_160" pos="0.30 0.18 0.2">
+      <joint name="obj_160" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_161" pos="0.00 0.20 0.2">
+      <joint name="obj_161" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_162" pos="0.02 0.20 0.2">
+      <joint name="obj_162" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_163" pos="0.04 0.20 0.2">
+      <joint name="obj_163" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_164" pos="0.06 0.20 0.2">
+      <joint name="obj_164" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_165" pos="0.08 0.20 0.2">
+      <joint name="obj_165" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_166" pos="0.10 0.20 0.2">
+      <joint name="obj_166" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_167" pos="0.12 0.20 0.2">
+      <joint name="obj_167" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_168" pos="0.14 0.20 0.2">
+      <joint name="obj_168" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_169" pos="0.16 0.20 0.2">
+      <joint name="obj_169" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_170" pos="0.18 0.20 0.2">
+      <joint name="obj_170" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_171" pos="0.20 0.20 0.2">
+      <joint name="obj_171" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_172" pos="0.22 0.20 0.2">
+      <joint name="obj_172" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_173" pos="0.24 0.20 0.2">
+      <joint name="obj_173" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_174" pos="0.26 0.20 0.2">
+      <joint name="obj_174" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_175" pos="0.28 0.20 0.2">
+      <joint name="obj_175" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_176" pos="0.30 0.20 0.2">
+      <joint name="obj_176" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_177" pos="0.00 0.22 0.2">
+      <joint name="obj_177" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_178" pos="0.02 0.22 0.2">
+      <joint name="obj_178" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_179" pos="0.04 0.22 0.2">
+      <joint name="obj_179" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_180" pos="0.06 0.22 0.2">
+      <joint name="obj_180" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_181" pos="0.08 0.22 0.2">
+      <joint name="obj_181" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_182" pos="0.10 0.22 0.2">
+      <joint name="obj_182" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_183" pos="0.12 0.22 0.2">
+      <joint name="obj_183" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_184" pos="0.14 0.22 0.2">
+      <joint name="obj_184" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_185" pos="0.16 0.22 0.2">
+      <joint name="obj_185" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_186" pos="0.18 0.22 0.2">
+      <joint name="obj_186" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_187" pos="0.20 0.22 0.2">
+      <joint name="obj_187" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_188" pos="0.22 0.22 0.2">
+      <joint name="obj_188" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_189" pos="0.24 0.22 0.2">
+      <joint name="obj_189" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_190" pos="0.26 0.22 0.2">
+      <joint name="obj_190" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_191" pos="0.28 0.22 0.2">
+      <joint name="obj_191" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_192" pos="0.30 0.22 0.2">
+      <joint name="obj_192" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_193" pos="0.00 0.24 0.2">
+      <joint name="obj_193" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_194" pos="0.02 0.24 0.2">
+      <joint name="obj_194" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_195" pos="0.04 0.24 0.2">
+      <joint name="obj_195" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_196" pos="0.06 0.24 0.2">
+      <joint name="obj_196" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_197" pos="0.08 0.24 0.2">
+      <joint name="obj_197" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_198" pos="0.10 0.24 0.2">
+      <joint name="obj_198" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_199" pos="0.12 0.24 0.2">
+      <joint name="obj_199" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_200" pos="0.14 0.24 0.2">
+      <joint name="obj_200" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_201" pos="0.16 0.24 0.2">
+      <joint name="obj_201" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_202" pos="0.18 0.24 0.2">
+      <joint name="obj_202" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_203" pos="0.20 0.24 0.2">
+      <joint name="obj_203" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_204" pos="0.22 0.24 0.2">
+      <joint name="obj_204" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_205" pos="0.24 0.24 0.2">
+      <joint name="obj_205" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_206" pos="0.26 0.24 0.2">
+      <joint name="obj_206" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_207" pos="0.28 0.24 0.2">
+      <joint name="obj_207" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_208" pos="0.30 0.24 0.2">
+      <joint name="obj_208" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_209" pos="0.00 0.26 0.2">
+      <joint name="obj_209" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_210" pos="0.02 0.26 0.2">
+      <joint name="obj_210" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_211" pos="0.04 0.26 0.2">
+      <joint name="obj_211" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_212" pos="0.06 0.26 0.2">
+      <joint name="obj_212" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_213" pos="0.08 0.26 0.2">
+      <joint name="obj_213" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_214" pos="0.10 0.26 0.2">
+      <joint name="obj_214" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_215" pos="0.12 0.26 0.2">
+      <joint name="obj_215" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_216" pos="0.14 0.26 0.2">
+      <joint name="obj_216" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_217" pos="0.16 0.26 0.2">
+      <joint name="obj_217" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_218" pos="0.18 0.26 0.2">
+      <joint name="obj_218" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_219" pos="0.20 0.26 0.2">
+      <joint name="obj_219" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_220" pos="0.22 0.26 0.2">
+      <joint name="obj_220" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_221" pos="0.24 0.26 0.2">
+      <joint name="obj_221" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_222" pos="0.26 0.26 0.2">
+      <joint name="obj_222" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_223" pos="0.28 0.26 0.2">
+      <joint name="obj_223" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_224" pos="0.30 0.26 0.2">
+      <joint name="obj_224" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_225" pos="0.00 0.28 0.2">
+      <joint name="obj_225" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_226" pos="0.02 0.28 0.2">
+      <joint name="obj_226" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_227" pos="0.04 0.28 0.2">
+      <joint name="obj_227" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_228" pos="0.06 0.28 0.2">
+      <joint name="obj_228" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_229" pos="0.08 0.28 0.2">
+      <joint name="obj_229" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_230" pos="0.10 0.28 0.2">
+      <joint name="obj_230" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_231" pos="0.12 0.28 0.2">
+      <joint name="obj_231" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_232" pos="0.14 0.28 0.2">
+      <joint name="obj_232" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_233" pos="0.16 0.28 0.2">
+      <joint name="obj_233" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_234" pos="0.18 0.28 0.2">
+      <joint name="obj_234" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_235" pos="0.20 0.28 0.2">
+      <joint name="obj_235" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_236" pos="0.22 0.28 0.2">
+      <joint name="obj_236" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_237" pos="0.24 0.28 0.2">
+      <joint name="obj_237" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_238" pos="0.26 0.28 0.2">
+      <joint name="obj_238" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_239" pos="0.28 0.28 0.2">
+      <joint name="obj_239" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_240" pos="0.30 0.28 0.2">
+      <joint name="obj_240" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_241" pos="0.00 0.30 0.2">
+      <joint name="obj_241" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_242" pos="0.02 0.30 0.2">
+      <joint name="obj_242" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_243" pos="0.04 0.30 0.2">
+      <joint name="obj_243" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_244" pos="0.06 0.30 0.2">
+      <joint name="obj_244" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_245" pos="0.08 0.30 0.2">
+      <joint name="obj_245" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_246" pos="0.10 0.30 0.2">
+      <joint name="obj_246" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_247" pos="0.12 0.30 0.2">
+      <joint name="obj_247" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_248" pos="0.14 0.30 0.2">
+      <joint name="obj_248" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_249" pos="0.16 0.30 0.2">
+      <joint name="obj_249" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_250" pos="0.18 0.30 0.2">
+      <joint name="obj_250" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_251" pos="0.20 0.30 0.2">
+      <joint name="obj_251" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_252" pos="0.22 0.30 0.2">
+      <joint name="obj_252" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_253" pos="0.24 0.30 0.2">
+      <joint name="obj_253" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_254" pos="0.26 0.30 0.2">
+      <joint name="obj_254" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_255" pos="0.28 0.30 0.2">
+      <joint name="obj_255" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+    <body name="object_256" pos="0.30 0.30 0.2">
+      <joint name="obj_256" type="slide" range="-1 1" damping="100" frictionloss="10"/>
+      <geom type="box" size="0.0099 0.0099 0.01" rgba=".62 .42 .62 0.58"/>
+    </body>
+</mujoco>

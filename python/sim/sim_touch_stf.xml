@@ -1,0 +1,60 @@
+<mujoco>
+    <compiler angle="radian" meshdir="meshes" autolimits="true" />
+    <!-- density="1.225" viscosity="1.8e-5" -->
+    <option timestep="0.01" gravity="0 0 -9.81" integrator="implicitfast" />
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
+        <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300"/>
+        <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    </asset>
+
+    <worldbody>
+
+        <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+        <light directional="true" ambient=".3 .3 .3" pos="30 30 30" dir="0 -.5 -1" diffuse=".5 .5 .5" specular=".5 .5 .5" />
+
+<!--        <body pos="0.1 0.1 0.5">-->
+<!--            <freejoint />-->
+<!--            <geom size="0.01" type="sphere" pos="0.02 0.02 0.02" mass="1"/>-->
+<!--            <geom size="0.05" type="sphere" mass="1" rgba="1 0 0 1"/>-->
+<!--        </body>-->
+
+<!--        <body pos="0.65 0.19 1">-->
+<!--            <freejoint />-->
+<!--            <geom type="box" size="0.051 0.051 0.051" mass="6" rgba="0 0 1 1"/>-->
+<!--        </body>-->
+
+<!--        <body name="red_cylinder" pos="0.65 0.1 0.35">-->
+<!--            <joint name="red_cylinder_joint" type="free" frictionloss="0.1" />-->
+<!--            <geom mass="6" pos="0 0 0" size="0.054 0.06" type="cylinder" name="red_cylinder" rgba="1 0 0 1" />-->
+<!--        </body>-->
+
+        <body pos="0.15 0.15 .4" euler="0 0 0">
+          <freejoint/>
+<!--          <replicate count="11" euler="0 0 36">-->
+          <replicate count="11" euler="0 0 38">
+            <geom mass="1.2" type="box" pos="0 -0.058 0" size=".025 .01 .1" rgba="0 .8 0 1"/>
+          </replicate>
+        </body>
+
+
+        <body name="sim_touch_pad_stf" pos="0 0 0.1">
+            <geom name="sim_touch_base_stf" type="box" pos="0.15 0.15 0" size="0.16 0.16 0.01" rgba="0.15 0.15 0.15 1" />
+            <replicate count="16" offset="0.0 0.02 0.0">
+                <replicate count="16" offset="0.02 0.0 0.0">
+                    <body pos="0 0 0.012" gravcomp="1">
+                        <geom type="box" size="0.01 0.01 0.002" rgba="0.5 0.3 0.2 0.3" mass="0"/>
+                        <site name="sim_touch_point_stf" pos="0 0 0" rgba="0.2 0.2 0.2 0"/>
+                    </body>
+                </replicate>
+            </replicate>
+        </body>
+
+    </worldbody>
+
+    <sensor>
+        <force name="sim_touch_point_stf" site="sim_touch_point_stf" />
+    </sensor>
+
+</mujoco>
