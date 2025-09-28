@@ -62,7 +62,7 @@ def main():
     threading.Thread(target=serial_reader_thread, args=(ser,), daemon=True).start()
 
     # 加载模型
-    model = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/3D-ViTac_upgrade/python/STF_touch_mujoco/real2sim2sim_touch_stf.xml')
+    model = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/STF/STF_touch_visualization/python/real2sim/real2sim2sim_touch_stf.xml')
     data = mujoco.MjData(model)
 
     # 构建触觉传感器地址索引

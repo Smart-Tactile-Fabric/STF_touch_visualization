@@ -66,7 +66,7 @@ serialThread.daemon = True
 serialThread.start()
 
 # 加载MuJoCo模型
-m = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/STF/STF_mujoco/python/real2sim/real2sim_touch_stf.xml')
+m = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/STF/STF_touch_visualization/python/real2sim/real2sim_touch_stf.xml')
 d = mujoco.MjData(m)
 
 # 获取触觉传感器的ID

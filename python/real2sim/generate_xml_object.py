@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     end_idx = 256
     # 生成 object_1 到 object_256 的代码并保存为XML文件
-    generate_mujoco_objects(1, end_idx, file_name="/home/hjx/hjx_file/STF/STF_mujoco/python/real2sim/generated_objects.xml")
+    generate_mujoco_objects(1, end_idx, file_name="/home/hjx/hjx_file/STF/STF_touch_visualization/python/real2sim/generated_objects.xml")
 
     # 生成 obj_1 到 obj_256 的 actuator XML
-    generate_actuator_xml(1, end_idx, file_name="/home/hjx/hjx_file/STF/STF_mujoco/python/real2sim/actuator_generated.xml")
+    generate_actuator_xml(1, end_idx, file_name="/home/hjx/hjx_file/STF/STF_touch_visualization/python/real2sim/actuator_generated.xml")

@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # 加载模型
-m = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/STF/STF_mujoco/python/sim/sim_touch_stf.xml')
+m = mujoco.MjModel.from_xml_path('/home/hjx/hjx_file/STF/STF_touch_visualization/python/sim/sim_touch_stf.xml')
 d = mujoco.MjData(m)
 
 # 打印传感器数量
