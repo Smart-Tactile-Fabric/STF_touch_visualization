@@ -12,7 +12,7 @@ GRID_SIZE = 16
 ALPHA = 0.1                      # 时间平滑参数
 BAUD_RATE = 1000000              # 串口波特率
 SERIAL_PORT = '/dev/ttyUSB0'     # 串口端口
-INIT_HEIGHT = -0.06              # 仿真物体初始Z轴高度
+INIT_HEIGHT = -0.08              # 仿真物体初始Z轴高度
 Z_SCALE = -0.0015                # Z轴映射比例（负号表示下凹）
 
 # ========== 全局数据结构 ==========
