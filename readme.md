@@ -10,6 +10,9 @@
 ## 2. Python
 (1) Setup environment
 
+        conda create --name stf python=3.10
+        conda activate stf
+        
         pip install pyserial
         pip install opencv-python==4.6.0.66
         pip install threading
