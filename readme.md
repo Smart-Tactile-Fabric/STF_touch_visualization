@@ -32,7 +32,8 @@
 
         cd python/sim
         python3 sim_touch_vis.py
-运行测试效果如下：
+
+运行``sim_touch_vis.py``代码的测试效果如下：
 ![img.png](/image/img1.png)
 
 Reference: https://binghao-huang.github.io/3D-ViTac/
