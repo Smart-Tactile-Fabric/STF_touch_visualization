@@ -25,6 +25,8 @@
 
 (2) Start python visualization(Test Real)
 
+注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）
+
         cd python/real
         python3 multi_thread_contact_v2.py
 
