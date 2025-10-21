@@ -30,7 +30,7 @@
         cd python/real
         python3 multi_thread_contact_v2.py
 
-(3) 基于MuJoCo仿真的触觉传感器测试(Test Sim)
+(3)【额外补充】基于MuJoCo仿真的触觉传感器测试(Test Sim)
 
         cd python/sim
         python3 sim_touch_vis.py
