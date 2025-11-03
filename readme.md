@@ -30,7 +30,12 @@
         cd python/real
         python3 multi_thread_contact_v0.py
 
-(3)【额外补充】基于MuJoCo仿真的触觉传感器测试(Test Sim)
+(3) 将真实布料触感在MuJoCo仿真环境中反馈并显示感受区域(Real2Sim2Sim)
+
+        cd python/real2sim
+        python3 real2sim2sim_touch_vis.py
+
+(4)【额外补充】基于MuJoCo仿真的触觉传感器测试(Test Sim)
 
         cd python/sim
         python3 sim_touch_vis.py
