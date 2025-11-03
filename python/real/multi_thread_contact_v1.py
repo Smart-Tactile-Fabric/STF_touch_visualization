@@ -18,8 +18,8 @@ cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 
 # 设置阈值和噪声缩放常数
-THRESHOLD = 10
-NOISE_SCALE = 60
+THRESHOLD = 6
+NOISE_SCALE = 20
 
 # 创建一个队列用于线程间传递数据
 data_queue = queue.Queue()
