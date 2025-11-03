@@ -11,7 +11,7 @@ import queue
 GRID_SIZE = 16
 ALPHA = 0.1                      # 时间平滑参数
 BAUD_RATE = 1000000              # 串口波特率
-SERIAL_PORT = '/dev/ttyUSB0'     # 串口端口
+SERIAL_PORT = '/dev/ttyUSB1'     # 串口端口
 INIT_HEIGHT = -0.08              # 仿真物体初始Z轴高度
 Z_SCALE = -0.0015                # Z轴映射比例（负号表示下凹）
 
@@ -35,8 +35,8 @@ def serial_reader_thread(ser):
                 if len(data_buffer) == GRID_SIZE:
                     raw_contact_data = np.array(data_buffer)
                     data_buffer.clear()
-                    # data_queue.put(rearrange_data(raw_contact_data))  # 新版本——布料
-                    data_queue.put(raw_contact_data)  # 旧版本
+                    data_queue.put(rearrange_data(raw_contact_data))  # 新版本——布料
+                    # data_queue.put(raw_contact_data)  # 旧版本
 
 
 # ========== 数据重排逻辑 ==========
@@ -51,6 +51,7 @@ def rearrange_data(data):
     new_data[12] = data[11]
     new_data[13] = data[10]
     new_data[14] = data[9]
+    new_data[15] = data[8]
     return new_data
 
 

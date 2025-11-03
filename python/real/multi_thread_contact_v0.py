@@ -15,8 +15,8 @@ cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 
 # 定义阈值和噪声缩放因子
-THRESHOLD = 6
-NOISE_SCALE = 20
+THRESHOLD = 12
+NOISE_SCALE = 60
 
 
 # 用于读取和处理串口数据的线程函数
@@ -76,7 +76,7 @@ def readThread(serDev):
                 if current is not None and len(current) == 16:  # 如果当前帧完整
                     current_array = np.array(current)  # 将当前帧转为numpy数组
                     # 重新排列行数据，调整帧的顺序
-                    new[:8, :] = current_array[:8, :]
+                    new[:8, :] = current_array[:8, :]  # 前8行保持不变
                     new[8, :] = current_array[15, :]
                     new[9, :] = current_array[14, :]
                     new[10, :] = current_array[13, :]
@@ -108,7 +108,7 @@ def readThread(serDev):
 
 
 # 设置串口
-PORT = '/dev/ttyUSB0'
+PORT = '/dev/ttyUSB1'
 BAUD = 1000000
 serDev = serial.Serial(PORT, BAUD)  # 打开串口
 serDev.flush()  # 清空串口输入缓冲区

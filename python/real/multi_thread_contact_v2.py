@@ -168,7 +168,7 @@ def readThread(serDev):
 
 
 # PORT = "left_gripper_right_finger"
-PORT = '/dev/ttyUSB0'
+PORT = '/dev/ttyUSB1'
 BAUD = 1000000
 serDev = serial.Serial(PORT, BAUD)
 exitThread = False

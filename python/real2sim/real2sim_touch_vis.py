@@ -35,8 +35,8 @@ def readThread(serDev):
                     contact_data_norm = np.array(data_buffer)  # 更新传感器数据矩阵
                     data_buffer.clear()  # 清空缓存，准备下一次读取
                     # 进行数据重排并通过队列传递给主线程
-                    data_queue.put(contact_data_norm)  # 调用重排函数: old
-                    # data_queue.put(rearrange_data(contact_data_norm))  # 调用重排函数: new
+                    # data_queue.put(contact_data_norm)  # 调用重排函数: old
+                    data_queue.put(rearrange_data(contact_data_norm))  # 调用重排函数: new
                     # print("Updated contact data:", contact_data_norm)
 
 def rearrange_data(current_array):
@@ -52,12 +52,13 @@ def rearrange_data(current_array):
     new[12, :] = current_array[11, :]  # 12行变为第13行
     new[13, :] = current_array[10, :]  # 11行变为第14行
     new[14, :] = current_array[9, :]  # 10行变为第15行
+    new[15, :] = current_array[8, :]  # 16行变为第9行
 
     return new  # 返回重排后的数据
 
 # 串口配置
 BAUD = 1000000
-serDev = serial.Serial('/dev/ttyUSB0', BAUD)
+serDev = serial.Serial('/dev/ttyUSB1', BAUD)
 serDev.flush()
 
 # 启动串口读取线程
