@@ -13,8 +13,10 @@ WINDOW_WIDTH = contact_data_norm.shape[1] * 30
 WINDOW_HEIGHT = contact_data_norm.shape[0] * 30
 cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
-THRESHOLD = 10
-NOISE_SCALE = 2
+
+# 设置阈值和噪声缩放常数
+THRESHOLD = 6
+NOISE_SCALE = 20
 
 # 初始化3D图形
 plt.ion()
