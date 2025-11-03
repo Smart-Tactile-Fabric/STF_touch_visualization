@@ -28,7 +28,7 @@
 注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）
 
         cd python/real
-        python3 multi_thread_contact_v2.py
+        python3 multi_thread_contact_v0.py
 
 (3)【额外补充】基于MuJoCo仿真的触觉传感器测试(Test Sim)
 

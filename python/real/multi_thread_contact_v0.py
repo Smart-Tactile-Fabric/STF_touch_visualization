@@ -14,9 +14,8 @@ WINDOW_WIDTH = contact_data_norm.shape[1] * 30
 WINDOW_HEIGHT = contact_data_norm.shape[0] * 30
 cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
-THRESHOLD = 12
-NOISE_SCALE = 60
-
+THRESHOLD = 6
+NOISE_SCALE = 20
 
 def readThread(serDev):
     global contact_data_norm, flag
@@ -53,7 +52,7 @@ def readThread(serDev):
     median = np.median(data_tac, axis=0)
     flag = True
     print("Finish Initialization!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-
+    new = np.zeros((16, 16))
     while True:
         if serDev.in_waiting > 0:
             try:
@@ -64,8 +63,20 @@ def readThread(serDev):
                 line = ""
             if len(line) < 10:
                 if current is not None and len(current) == 16:
-                    backup = np.array(current)
-                    # print(backup)
+                    current_array = np.array(current)
+                    new[:8, :] = current_array[:8, :]  # 前8行保持不变
+                    new[8, :] = current_array[15, :]
+                    new[9, :] = current_array[14, :]
+                    new[10, :] = current_array[13, :]
+                    new[11, :] = current_array[12, :]
+                    new[12, :] = current_array[11, :]
+                    new[13, :] = current_array[10, :]
+                    new[14, :] = current_array[9, :]
+                    new[15, :] = current_array[8, :]
+
+                backup = np.array(new)
+                #     backup = np.array(current)
+                #     print(backup)
                 current = []
                 if backup is not None:
                     contact_data = backup - median - THRESHOLD
@@ -129,10 +140,11 @@ if __name__ == '__main__':
                 # Scale to 0-255 and convert to uint8
                 temp_filtered_data_scaled = (temp_filtered_data * 255).astype(np.uint8)
 
+                # temp_filtered_data_scaled = temp_filtered_data_scaled[:15,:15]
+
                 # Apply color map
                 colormap = cv2.applyColorMap(temp_filtered_data_scaled, cv2.COLORMAP_VIRIDIS)
 
                 cv2.imshow("Contact Data_left", colormap)
                 cv2.waitKey(1)
             time.sleep(0.01)
-
