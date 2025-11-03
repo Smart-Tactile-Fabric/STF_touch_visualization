@@ -71,18 +71,18 @@ def readThread(serDev):
             if len(line) < 10:  # 如果读取到一行数据并且长度小于10
                 if current is not None and len(current) == 16:  # 如果当前行数据已完整
                     current_array = np.array(current)  # 将当前数据行转为NumPy数组
-                    # 处理当前数据并将其重新排列
-                    new[:8, :] = current_array[:8, :]  # 前8行保持不变
-                    new[8, :] = current_array[15, :]  # 16行变为第9行
-                    new[9, :] = current_array[14, :]  # 15行变为第10行
-                    new[10, :] = current_array[13, :]  # 14行变为第11行
-                    new[11, :] = current_array[12, :]  # 13行变为第12行
-                    new[12, :] = current_array[11, :]  # 12行变为第13行
-                    new[13, :] = current_array[10, :]  # 11行变为第14行
-                    new[14, :] = current_array[9, :]  # 10行变为第15行
-                    # backup = np.array(new)  # 更新备份数据: old
-                    backup = np.array(current_array)  # 更新备份数据: new
+                    # 重新排列行数据，调整帧的顺序
+                    new[:8, :] = current_array[:8, :]
+                    new[8, :] = current_array[15, :]
+                    new[9, :] = current_array[14, :]
+                    new[10, :] = current_array[13, :]
+                    new[11, :] = current_array[12, :]
+                    new[12, :] = current_array[11, :]
+                    new[13, :] = current_array[10, :]
+                    new[14, :] = current_array[9, :]
+                    new[15, :] = current_array[8, :]
 
+                backup = np.array(new)  # 备份当前帧
                 current = []  # 重置当前数据行
                 if backup is not None:
                     contact_data = backup - median - THRESHOLD  # 从备份数据中减去中位数和阈值

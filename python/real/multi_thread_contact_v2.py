@@ -119,7 +119,7 @@ def readThread(serDev):
     median = np.median(data_tac, axis=0)
     flag = True
     print("Finish Initialization!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-
+    new = np.zeros((16, 16))  # 创建一个新的零矩阵，用于存储处理后的数据
     while True:
         if serDev.in_waiting > 0:
             try:
@@ -130,8 +130,20 @@ def readThread(serDev):
                 line = ""
             if len(line) < 10:
                 if current is not None and len(current) == 16:
-                    backup = np.array(current)
-                    # print(backup)
+                    # backup = np.array(current)
+                    current_array = np.array(current)  # 将当前数据行转为NumPy数组
+                    # 重新排列行数据，调整帧的顺序
+                    new[:8, :] = current_array[:8, :]
+                    new[8, :] = current_array[15, :]
+                    new[9, :] = current_array[14, :]
+                    new[10, :] = current_array[13, :]
+                    new[11, :] = current_array[12, :]
+                    new[12, :] = current_array[11, :]
+                    new[13, :] = current_array[10, :]
+                    new[14, :] = current_array[9, :]
+                    new[15, :] = current_array[8, :]
+
+                backup = np.array(new)  # 备份当前帧
                 current = []
                 if backup is not None:
                     contact_data = backup - median - THRESHOLD
@@ -156,8 +168,7 @@ def readThread(serDev):
 # PORT = "left_gripper_right_finger"
 PORT = '/dev/ttyUSB0'
 BAUD = 1000000
-# serDev = serial.Serial(PORT,2000000)
-serDev = serial.Serial('/dev/ttyUSB0', BAUD)
+serDev = serial.Serial(PORT, BAUD)
 exitThread = False
 serDev.flush()
 serialThread = threading.Thread(target=readThread, args=(serDev,))
