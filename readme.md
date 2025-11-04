@@ -47,12 +47,12 @@
 
 注意： 
 
-1）串口端口的设置（linux系统和windows系统设置不同），例如
+1）串口端口的设置（``Linux``系统和``Windows``系统设置不同），例如
         
-        linux系统: '/dev/ttyUSB1'
-        windows系统: 'COM6'
+        Linux系统: '/dev/ttyUSB1'
+        Windows系统: 'COM6'
 
 
 
 
-Reference: https://binghao-huang.github.io/3D-ViTac/
+``Reference``: https://binghao-huang.github.io/3D-ViTac/
