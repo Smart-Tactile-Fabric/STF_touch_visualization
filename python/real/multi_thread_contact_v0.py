@@ -15,8 +15,8 @@ cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 
 # 定义阈值和噪声缩放因子
-THRESHOLD = 12
-NOISE_SCALE = 60
+THRESHOLD = 6
+NOISE_SCALE = 20
 
 # 用于读取和处理串口数据的线程函数
 def readThread(serDev):
@@ -85,7 +85,7 @@ def readThread(serDev):
                     new[13, :] = current_array[10, :] + temp
                     new[14, :] = current_array[9, :] + temp
                     new[15, :] = current_array[8, :] + temp
-                    # print(current_array[:])
+                    print(current_array[:])  # 测试用
 
                 backup = np.array(new)  # 备份当前帧
 

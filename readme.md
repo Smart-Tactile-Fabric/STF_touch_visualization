@@ -8,8 +8,9 @@
 
 (1) Load the [arduino code](/arduino_code/MatrixArray0/MatrixArray0.ino) to the arduino. 
 
-      MatrixArray0 为初始版本的arduino代码，适合普适范围（受压面大）
-      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小）
+      MatrixArray 为初始版本的arduino代码，无标定
+      MatrixArray0 为标定版本的arduino代码，适合普适范围（受压面大）
+      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小），仿真效果好
 
 ## 2. Python
 (1) Setup environment
@@ -27,12 +28,14 @@
 
 (2) Start python visualization(Test Real)
 
-注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）
+注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）。建议烧入MatrixArray0代码。
 
         cd python/real
         python3 multi_thread_contact_v0.py
 
 (3) 将真实布料触感在MuJoCo仿真环境中反馈并显示感受区域(Real2Sim2Sim)
+
+注意：如果仿真界面卡死、无反应或者中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray1代码。
 
         cd python/real2sim
         python3 real2sim2sim_touch_vis.py
