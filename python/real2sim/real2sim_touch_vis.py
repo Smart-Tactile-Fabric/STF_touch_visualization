@@ -58,7 +58,7 @@ def rearrange_data(current_array):
 
 # 串口配置
 BAUD = 1000000
-serDev = serial.Serial('/dev/ttyUSB1', BAUD)
+serDev = serial.Serial('/dev/ttyUSB0', BAUD)
 serDev.flush()
 
 # 启动串口读取线程
