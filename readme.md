@@ -47,11 +47,14 @@
 
 注意： 
 
-1）串口端口的设置（``Linux``系统和``Windows``系统设置不同），例如
+1) 串口端口的设置（``Linux``系统和``Windows``系统设置不同），例如
         
         Linux系统: '/dev/ttyUSB1'
         Windows系统: 'COM6'
 
+2) 在MuJoCo仿真中，XML文件的路径要与自己的电脑一致，比如我的路径设置：
+
+        '/home/hjx/hjx_file/STF/STF_touch_visualization/python/sim/sim_touch_stf.xml'
 
 
 
