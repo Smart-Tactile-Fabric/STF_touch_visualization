@@ -43,4 +43,15 @@
 运行``sim_touch_vis.py``代码的测试效果如下：
 ![img.png](/image/img1.png)
 
+## 3. Error Collection
+
+注意： 
+ 1）串口端口的设置（linux系统和windows系统设置不同），例如
+        
+        linux系统: '/dev/ttyUSB1'
+        windows系统: ‘COM6’
+
+
+
+
 Reference: https://binghao-huang.github.io/3D-ViTac/
