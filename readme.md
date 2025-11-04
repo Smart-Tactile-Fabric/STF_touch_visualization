@@ -50,7 +50,7 @@
 1）串口端口的设置（linux系统和windows系统设置不同），例如
         
         linux系统: '/dev/ttyUSB1'
-        windows系统: ‘COM6’
+        windows系统: 'COM6'
 
 
 
