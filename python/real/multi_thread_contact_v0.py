@@ -75,18 +75,21 @@ def readThread(serDev):
             if len(line) < 10:
                 if current is not None and len(current) == 16:  # 如果当前帧完整
                     current_array = np.array(current)  # 将当前帧转为numpy数组
+                    temp = 0
                     # 重新排列行数据，调整帧的顺序
-                    new[:8, :] = current_array[:8, :]  # 前8行保持不变
-                    new[8, :] = current_array[15, :]
-                    new[9, :] = current_array[14, :]
-                    new[10, :] = current_array[13, :]
-                    new[11, :] = current_array[12, :]
-                    new[12, :] = current_array[11, :]
-                    new[13, :] = current_array[10, :]
-                    new[14, :] = current_array[9, :]
-                    new[15, :] = current_array[8, :]
+                    new[:8, :] = current_array[:8, :] + temp # 前8行保持不变
+                    new[8, :] = current_array[15, :] + temp
+                    new[9, :] = current_array[14, :] + temp
+                    new[10, :] = current_array[13, :] + temp
+                    new[11, :] = current_array[12, :] + temp
+                    new[12, :] = current_array[11, :] + temp
+                    new[13, :] = current_array[10, :] + temp
+                    new[14, :] = current_array[9, :] + temp
+                    new[15, :] = current_array[8, :] + temp
+                    print(current_array[:])
 
                 backup = np.array(new)  # 备份当前帧
+
                 current = []  # 重置当前帧
                 if backup is not None:
                     # 去除背景并应用阈值
@@ -108,7 +111,7 @@ def readThread(serDev):
 
 
 # 设置串口
-PORT = '/dev/ttyUSB1'
+PORT = '/dev/ttyUSB0'
 BAUD = 1000000
 serDev = serial.Serial(PORT, BAUD)  # 打开串口
 serDev.flush()  # 清空串口输入缓冲区
