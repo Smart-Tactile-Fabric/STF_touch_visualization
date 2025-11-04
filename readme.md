@@ -6,8 +6,10 @@
 
 ## 1. Firmware
 
-(1) Load the [arduino code](/arduino_code/MatrixArray.ino) to the arduino. 
+(1) Load the [arduino code](/arduino_code/MatrixArray0/MatrixArray0.ino) to the arduino. 
 
+      MatrixArray0 为初始版本的arduino代码，适合普适范围（受压面大）
+      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小）
 
 ## 2. Python
 (1) Setup environment

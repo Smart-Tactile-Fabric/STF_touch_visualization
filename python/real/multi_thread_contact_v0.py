@@ -18,7 +18,6 @@ cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 THRESHOLD = 12
 NOISE_SCALE = 60
 
-
 # 用于读取和处理串口数据的线程函数
 def readThread(serDev):
     global contact_data_norm, flag
@@ -86,7 +85,7 @@ def readThread(serDev):
                     new[13, :] = current_array[10, :] + temp
                     new[14, :] = current_array[9, :] + temp
                     new[15, :] = current_array[8, :] + temp
-                    print(current_array[:])
+                    # print(current_array[:])
 
                 backup = np.array(new)  # 备份当前帧
 
