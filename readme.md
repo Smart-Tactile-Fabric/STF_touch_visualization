@@ -9,7 +9,7 @@
 (1) Load the [arduino code](/arduino_code/MatrixArray0/MatrixArray0.ino) to the arduino. 
 
       MatrixArray 为初始版本的arduino代码，无标定
-      MatrixArray0 为标定版本的arduino代码，适合普适范围（受压面大）
+      MatrixArray0 为标定版本的arduino代码，适合普适范围（受压面大，但串扰大）
       MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小），仿真效果好
 
 ## 2. Python

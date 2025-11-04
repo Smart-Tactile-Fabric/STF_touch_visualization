@@ -85,7 +85,7 @@ def readThread(serDev):
                     new[13, :] = current_array[10, :] + temp
                     new[14, :] = current_array[9, :] + temp
                     new[15, :] = current_array[8, :] + temp
-                    print(current_array[:])  # 测试用
+                    # print(current_array[:])  # 测试用
 
                 backup = np.array(new)  # 备份当前帧
 

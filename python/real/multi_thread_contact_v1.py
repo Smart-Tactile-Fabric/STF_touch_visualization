@@ -107,7 +107,7 @@ def readThread(serDev):
 
 # 配置串口端口和波特率
 BAUD = 1000000
-serDev = serial.Serial('/dev/ttyUSB1', BAUD)  # 创建串口对象
+serDev = serial.Serial('/dev/ttyUSB0', BAUD)  # 创建串口对象
 exitThread = False  # 标记是否退出线程
 serDev.flush()  # 清空串口缓存
 # 创建并启动一个读取串口数据的线程
