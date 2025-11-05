@@ -39,7 +39,7 @@
 
 (3) 将真实布料触感在MuJoCo仿真环境中反馈并显示感受区域(Real2Sim2Sim)
 
-注意：如果仿真界面卡死、无反应或中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray_update代码。
+注意：仿真界面卡死、无反应或中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray_update代码。
 
         cd python/real2sim
         python3 real2sim2sim_touch_vis.py
