@@ -61,7 +61,7 @@
         Linux系统: '/dev/ttyUSB1'
         Windows系统: 'COM6'
 
-2) 在MuJoCo仿真中，XML文件的路径要与自己的电脑一致，比如我的路径设置：
+2) 在MuJoCo仿真中，不同的XML文件路径要与自己的电脑一致，比如项目其中的一个XML文件路径设置为：
 
         '/home/hjx/hjx_file/STF/STF_touch_visualization/python/sim/sim_touch_stf.xml'
 
