@@ -10,7 +10,9 @@
 
       MatrixArray 为初始版本的arduino代码，无标定
       MatrixArray0 为标定版本的arduino代码，适合普适范围（受压面大，但串扰大）
-      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小），仿真效果好
+      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小），仿真效果好；
+
+补充：触觉布料的标定教程：https://tcnemfaap5t4.feishu.cn/wiki/BSDXwU5HOibmS8kywGxcVirmnVh
 
 ## 2. Python
 (1) Setup environment
