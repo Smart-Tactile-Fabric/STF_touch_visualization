@@ -39,10 +39,15 @@
 
 (3) 将真实布料触感在MuJoCo仿真环境中反馈并显示感受区域(Real2Sim2Sim)
 
+触觉布料感应区域在mujoco仿真中的可视化效果展示：真实布料的感应区域映射至仿真中的粉色点阵（real2sim），由粉色点阵下压至mujoco仿真环境中的触觉传感器形成高亮可视化图像（sim2sim）
+
 注意：仿真界面卡死、无反应或中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray_update代码。
 
         cd python/real2sim
         python3 real2sim2sim_touch_vis.py
+
+运行``real2sim2sim_touch_vis.py``代码的测试效果如下：
+![img.png](/image/img2.png)
 
 (4)【额外补充】基于MuJoCo仿真的触觉传感器测试(Test Sim)
 

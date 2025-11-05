@@ -76,7 +76,7 @@ def readThread(serDev):
                     current_array = np.array(current)  # 将当前帧转为numpy数组
                     temp = 0
                     # 重新排列行数据，调整帧的顺序
-                    new[:8, :] = current_array[:8, :] + temp # 前8行保持不变
+                    new[:8, :] = current_array[:8, :] + temp  # 前8行保持不变
                     new[8, :] = current_array[15, :] + temp
                     new[9, :] = current_array[14, :] + temp
                     new[10, :] = current_array[13, :] + temp
