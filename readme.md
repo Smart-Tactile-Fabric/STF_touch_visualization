@@ -6,15 +6,15 @@
 
 ## 1. Firmware
 
-(1) Load the [arduino code](/arduino_code/MatrixArray0/MatrixArray0.ino) to the arduino. 
+(1) Load the [arduino code](/arduino_code) to the arduino. 
 
       MatrixArray_naive 为初始版本的arduino代码，无标定
-      MatrixArray0 为标定版本的arduino代码，适合普适范围（受压面大，但串扰大）
-      MatrixArray1 为更新版本的arduino代码，适合精细范围（受压面小），仿真效果好；
+      MatrixArray_normal 为正常标定版本的arduino代码，适合普适范围（受压面大，但串扰大）
+      MatrixArray_update 为更新标定版本的arduino代码，适合精细范围（仅限于感知受压面小的物体），同时MuJoCo仿真效果好；
 
 (2) 触觉布料的标定教程：https://tcnemfaap5t4.feishu.cn/wiki/BSDXwU5HOibmS8kywGxcVirmnVh
 
-补充：淘宝购买的布料均已出厂标定，玩家可以自行探索布料标定教程的操作
+补充：淘宝购买的布料均已出厂标定（采用MatrixArray_update），如果想要采用MatrixArray_normal正常标定版本，可以自行探索布料标定教程中的操作流程.
 
 ## 2. Python
 (1) Setup environment
