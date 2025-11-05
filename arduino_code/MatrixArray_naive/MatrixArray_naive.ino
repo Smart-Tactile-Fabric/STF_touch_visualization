@@ -116,7 +116,7 @@ void loop()
       send_reading = (send_reading > 30) ? (send_reading - 30) : 0;
 
       // 应用点偏移：从读取值中减去对应点的偏移值
-      int offset_reading = send_reading - POINT_OFFSETS[i][j] - 10;
+      int offset_reading = send_reading - POINT_OFFSETS[i][j];
       offset_reading = constrain(offset_reading, 0, 255);  // 限制在0-255范围内
 
       // 移位到下一列

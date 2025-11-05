@@ -32,14 +32,14 @@
 
 (2) Start python visualization(Test Real)
 
-注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）。建议烧入MatrixArray0代码。
+注意：运行触觉布料的可视化测试脚本需要将【布料硬件】连接上位机（电脑）。建议烧入MatrixArray_normal代码。
 
         cd python/real
         python3 multi_thread_contact_v0.py
 
 (3) 将真实布料触感在MuJoCo仿真环境中反馈并显示感受区域(Real2Sim2Sim)
 
-注意：如果仿真界面卡死、无反应或者中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray1代码。
+注意：如果仿真界面卡死、无反应或者中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray_update代码。
 
         cd python/real2sim
         python3 real2sim2sim_touch_vis.py
