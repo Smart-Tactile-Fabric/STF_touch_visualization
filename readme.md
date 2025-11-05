@@ -44,6 +44,7 @@
 注意：仿真界面卡死、无反应或中间部分存在死点，建议关闭程序后重新运行。建议烧入MatrixArray_update代码。
 
         cd python/real2sim
+        python3 real2sim_touch_vis.py
         python3 real2sim2sim_touch_vis.py
 
 运行``real2sim2sim_touch_vis.py``代码的测试效果如下：
