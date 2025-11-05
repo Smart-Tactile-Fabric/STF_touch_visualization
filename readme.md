@@ -8,9 +8,9 @@
 
 (1) Load the [arduino code](/arduino_code) to the arduino. 
 
-      MatrixArray_naive 为初始版本的arduino代码，无标定
-      MatrixArray_normal 为正常标定版本的arduino代码，适合普适范围（可感知的受压面大，但串扰偏大一些）
-      MatrixArray_update 为更新标定版本的arduino代码，适合精细范围（仅限于感知受压面小的物体），同时MuJoCo仿真效果好；
+      MatrixArray_naive 为初始版本的arduino代码，无标定；
+      MatrixArray_normal 为正常标定版本的arduino代码，适合普适范围（可感知的受压面大，但串扰偏大一些）；
+      MatrixArray_update 为更新标定版本的arduino代码，适合精细范围（仅限于感知受压面小的物体），同时MuJoCo仿真效果好
 
 (2) 触觉布料的标定教程：https://tcnemfaap5t4.feishu.cn/wiki/BSDXwU5HOibmS8kywGxcVirmnVh
 
