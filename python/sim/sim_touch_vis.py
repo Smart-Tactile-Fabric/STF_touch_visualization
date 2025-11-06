@@ -13,8 +13,6 @@ print(f"sensor_num: {m.nsensor}")
 
 # 获取第一个触觉传感器的ID
 sensor_id_stf = mujoco.mj_name2id(m, mujoco.mjtObj.mjOBJ_SENSOR, "touch_point_stf")
-if sensor_id_stf == -1:
-    print("no found sensor touch_point_stf")
 
 # 存储传感器的内存地址
 touch_point_adr_stf = [[0] * 16 for _ in range(16)]
