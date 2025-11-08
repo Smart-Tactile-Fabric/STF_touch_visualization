@@ -1,6 +1,6 @@
 # Smart-Tactile-Fabric(智能触觉布料)
 
-#### Project Website: https://smart-tactile-fabric.github.io/STF.github.io/
+#### Project Website(项目网页): https://smart-tactile-fabric.github.io/STF.github.io/
 
 【淘宝】https://e.tb.cn/h.SQ6rjlgiow5ob5s?tk=MJN9f2bd29s CZ225 「【新品预售】压力传感器智能绑缚足底鞋垫机器人触觉柔性感知布料」点击链接直接打开 或者 淘宝搜索直接打开
 
