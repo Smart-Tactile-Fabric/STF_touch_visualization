@@ -74,7 +74,7 @@
 
         '/home/hjx/hjx_file/STF/STF_touch_visualization/python/sim/sim_touch_stf.xml'
 
-3) 在multi_thread_contact_v0.py代码中，阈值和噪声缩放因子可以自行调试，更改不同的数值来调整可视化中的噪声串扰：
+3) 在``multi_thread_contact_v0.py``代码中，阈值和噪声缩放因子可以自行调试，更改不同的数值来调整可视化中的噪声串扰：
 
         # 定义阈值和噪声缩放因子
         THRESHOLD = 6
