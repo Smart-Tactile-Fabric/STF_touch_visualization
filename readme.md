@@ -81,3 +81,13 @@
         NOISE_SCALE = 20
 
 ``Reference``: https://binghao-huang.github.io/3D-ViTac/
+
+## Citation
+If you use this project in your work, please cite the following:
+
+      @misc{jnu2025STF,
+        title={Smart-Tactile-Fabric},
+        author={Wen, Jiayi and Ma, Yunsheng and Huang, Jiaxin and Liu, Hanyu and Li, Xinran and Song, Zhigong},
+        year={2025},
+        howpublished={\url{https://github.com/Smart-Tactile-Fabric/STF_touch_visualization}},
+}
