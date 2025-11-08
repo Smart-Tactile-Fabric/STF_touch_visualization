@@ -16,6 +16,9 @@
 
 补充：淘宝购买的布料均已出厂标定（采用MatrixArray_update），如果想要采用MatrixArray_normal正常标定版本，可以自行探索布料标定教程中的操作流程(兼容Linux系统与Windows系统).
 
+(3) 触觉布料的基础使用教程（面向新手）：https://e1rist1l032.feishu.cn/wiki/ZfWIw2AS1igHVOkU2vScT5oanZI?from=message&source_type=message
+
+
 ## 2. Python
 (1) Setup environment
 
