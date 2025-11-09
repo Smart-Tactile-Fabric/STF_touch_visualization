@@ -67,7 +67,7 @@
         python3 STF_touch_control_car.py
 
 运行``STF_touch_control_car.py``代码的测试效果如下：
-![img.png](/image/img3.jng)
+![img.png](/image/img3.jpg)
 
 注意：触觉控制小车的原理是基于布料上四个象限的触觉数据同时控制前进、后退和转向.
 
