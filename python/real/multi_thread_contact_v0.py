@@ -15,8 +15,8 @@ cv2.namedWindow("Contact Data_left", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 
 # 定义阈值和噪声缩放因子
-THRESHOLD = 6
-NOISE_SCALE = 20
+THRESHOLD = 12
+NOISE_SCALE = 60
 
 # 用于读取和处理串口数据的线程函数
 def readThread(serDev):
