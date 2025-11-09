@@ -159,28 +159,28 @@ if __name__ == "__main__":
             # print("Bottom Right Block:")
             # print(bottom_right)
 
-            top_left_max_data = np.max(top_left) / 200  # 最大压力数据归缩放
+            top_left_max_data = np.max(top_left) / 200  # 最大压力数据缩放
             top_left_sum_data = np.sum(top_left) / 100  # 总压力数据缩放
             top_left_non_zero_count = np.count_nonzero(top_left)
             # print(f"Top left max:{top_left_max_data}")
             # print(f"Top left sum:{top_left_sum_data}")
             # print(f"Top left Non-zero elements count: {top_left_non_zero_count}")
 
-            top_right_max_data = np.max(top_right) / 200  # 最大压力数据归缩放
+            top_right_max_data = np.max(top_right) / 200  # 最大压力数据缩放
             top_right_sum_data = np.sum(top_right) / 100  # 总压力数据缩放
             top_right_non_zero_count = np.count_nonzero(top_right)
             # print(f"Top right max:{top_right_max_data}")
             # print(f"Top right sum:{top_right_sum_data}")
             # print(f"Top right Non-zero elements count: {top_right_non_zero_count}")
 
-            bottom_left_max_data = np.max(bottom_left) / 200  # 最大压力数据归缩放
+            bottom_left_max_data = np.max(bottom_left) / 200  # 最大压力数据缩放
             bottom_left_sum_data = np.sum(bottom_left) / 100  # 总压力数据缩放
             bottom_left_non_zero_count = np.count_nonzero(bottom_left)
             # print(f"Bottom left max:{bottom_left_max_data}")
             # print(f"Bottom left sum:{bottom_left_sum_data}")
             # print(f"Bottom left Non-zero elements count: {bottom_left_non_zero_count}")
 
-            bottom_right_max_data = np.max(bottom_right) / 200  # 最大压力数据归缩放
+            bottom_right_max_data = np.max(bottom_right) / 200  # 最大压力数据缩放
             bottom_right_sum_data = np.sum(bottom_right) / 100  # 总压力数据缩放
             bottom_right_non_zero_count = np.count_nonzero(bottom_right)
             # print(f"Bottom right max:{bottom_right_max_data}")
