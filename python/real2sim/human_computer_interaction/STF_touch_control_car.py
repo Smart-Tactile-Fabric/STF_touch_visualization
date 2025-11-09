@@ -1,5 +1,5 @@
 from pathlib import Path
-import mujoco  # 用于加载MuJoCo物理引擎模型，pip install mujoco==3.1.1
+import mujoco
 import mujoco.viewer
 import numpy as np
 from loop_rate_limiters import RateLimiter  # 用于控制仿真步进频率
