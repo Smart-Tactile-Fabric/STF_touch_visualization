@@ -196,9 +196,9 @@ if __name__ == "__main__":
             if top_right_non_zero_count > 8 and top_right_max_data > 0.15:
                 forward_speed -= 0.2  # 后退
             if bottom_left_non_zero_count > 8 and bottom_left_max_data > 0.15:
-                yaw_rate += 0.2  # 顺时针转向
+                yaw_rate += 0.2  # 逆时针转向
             if bottom_right_non_zero_count > 8 and bottom_right_max_data > 0.15:
-                yaw_rate -= 0.2  # 逆时针转向
+                yaw_rate -= 0.2  # 顺时针转向
 
             # 根据控制信号计算左右轮速度
             v_l = forward_speed - yaw_rate * wheel_base / 2
