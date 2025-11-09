@@ -138,7 +138,7 @@ if __name__ == "__main__":
         while viewer.is_running():
 
             # 获取触觉数据
-            stf_max_data = np.max(contact_data_norm) / 200  # 最大压力数据归缩放
+            stf_max_data = np.max(contact_data_norm) / 200  # 最大压力数据缩放
             stf_sum_data = np.sum(contact_data_norm) / 100  # 总压力数据缩放
             # print(f"max:{stf_max_data}")
             # print(f"sum:{stf_sum_data}")
