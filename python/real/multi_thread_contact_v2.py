@@ -211,8 +211,12 @@ if __name__ == '__main__':
             # 统一颜色处理
             normalized_data = (smoothed_data * 255).astype(np.uint8)
 
+            # 去掉最后一行和最后一列，生成15x15的矩阵
+            contact_data_to_display = normalized_data[:15, :15]
+
             # 2D显示 - 使用HOT colormap
-            colormap = cv2.applyColorMap(normalized_data, cv2.COLORMAP_HOT)
+            # colormap = cv2.applyColorMap(normalized_data, cv2.COLORMAP_HOT)
+            colormap = cv2.applyColorMap(contact_data_to_display, cv2.COLORMAP_HOT)
 
             # 显示原始2D触觉图像
             height, width = colormap.shape[:2]

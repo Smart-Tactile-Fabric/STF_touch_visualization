@@ -158,8 +158,12 @@ if __name__ == '__main__':
                 # 将数据缩放到0-255并转换为uint8类型
                 temp_filtered_data_scaled = (temp_filtered_data * 255).astype(np.uint8)
 
+                # 去掉最后一行和最后一列，生成15x15的矩阵
+                contact_data_to_display = temp_filtered_data_scaled[:15, :15]
+
                 # 使用颜色映射进行可视化
-                colormap = cv2.applyColorMap(temp_filtered_data_scaled, cv2.COLORMAP_VIRIDIS)
+                # colormap = cv2.applyColorMap(temp_filtered_data_scaled, cv2.COLORMAP_VIRIDIS)
+                colormap = cv2.applyColorMap(contact_data_to_display, cv2.COLORMAP_VIRIDIS)
 
                 # 使用OpenCV显示处理后的接触数据
                 cv2.imshow("Contact Data_left", colormap)
