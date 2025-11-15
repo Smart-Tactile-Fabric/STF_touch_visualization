@@ -189,7 +189,7 @@ if __name__ == "__main__":
 
             # 控制速度和角速度（基于触觉数据）
             forward_speed, yaw_rate = 0.0, 0.0
-            k = 1.5
+            k = 1.5  # 速度增益系数
 
             # 设定前进、后退及转向的条件
             if top_left_non_zero_count > 12 and top_left_max_data > 0.05:
