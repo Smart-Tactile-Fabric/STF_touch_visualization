@@ -1,0 +1,8 @@
+prefix=/home/hjx/hjx_file/STF/STF_develop/ros/tactile_ws/install
+
+Name: tactile_sensor
+Description: Description of tactile_sensor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

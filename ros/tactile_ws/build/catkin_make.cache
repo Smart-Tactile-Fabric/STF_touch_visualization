@@ -1,0 +1,2 @@
+tactile_sensor
+-DCATKIN_DEVEL_PREFIX=/home/hjx/hjx_file/STF/STF_develop/ros/tactile_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hjx/hjx_file/STF/STF_develop/ros/tactile_ws/install -G Unix Makefiles
