@@ -6,7 +6,7 @@
         catkin_make
 
 注意：``cd ros/tactile_ws``文件路径中后需要删除``build``和``devel``文件，然后再``catkin_make``编译;
-后续在.bashrc文件中添加``source /home/hjx/hjx_file/STF/STF_develop/ros/tactile_ws/devel/setup.sh``内容.
+后续在.bashrc文件中添加``source /home/hjx/hjx_file/STF/STF_touch_visualization/ros/tactile_ws/devel/setup.sh``内容.
 
 2. rosrun tactile_sensor tactile_sensor.py
 
