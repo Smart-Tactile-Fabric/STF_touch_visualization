@@ -27,7 +27,6 @@
         
         pip install pyserial
         pip install opencv-python==4.6.0.66
-        pip install threading
         pip install scipy
         pip install numpy==1.23.0
         pip install mujoco==3.3.0
