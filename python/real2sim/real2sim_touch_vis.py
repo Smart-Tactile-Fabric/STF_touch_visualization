@@ -44,6 +44,10 @@ def rearrange_data(current_array):
     new = np.zeros((16, 16))  # 创建一个新的零矩阵，用于存储处理后的数据
 
     # 处理当前数据并将其重新排列
+    # 标准版布料
+    # new[:15, :] = current_array[:15, :]  # 前8行保持不变
+
+    # 定制版布料
     new[:8, :] = current_array[:8, :]  # 前8行保持不变
     new[8, :] = current_array[15, :]  # 16行变为第9行
     new[9, :] = current_array[14, :]  # 15行变为第10行

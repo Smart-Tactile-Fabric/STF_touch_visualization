@@ -53,6 +53,8 @@ def rearrange_data(current_array):
     new = np.zeros((16, 16))  # 创建一个新的零矩阵，用于存储处理后的数据
 
     # 处理当前数据并将其重新排列
+    # new[:15, :] = current_array[:15, :]  # 前15行保持不变
+
     new[:8, :] = current_array[:8, :]  # 前8行保持不变
     new[8, :] = current_array[15, :]  # 16行变为第9行
     new[9, :] = current_array[14, :]  # 15行变为第10行
@@ -82,7 +84,7 @@ def split_matrix(contact_data_norm):
 
 # 串口配置
 BAUD = 1000000  # 设置串口波特率
-serDev = serial.Serial('/dev/ttyUSB1', BAUD)  # 初始化串口
+serDev = serial.Serial('/dev/ttyUSB0', BAUD)  # 初始化串口
 serDev.flush()  # 清空串口缓冲区
 
 # 启动串口读取线程

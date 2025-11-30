@@ -43,6 +43,10 @@ def serial_reader_thread(ser):
 def rearrange_data(data):
     """ 将原始16x16数据中后8行倒序排布 """
     new_data = np.zeros_like(data)
+    # 标准版布料
+    # new_data[:15] = data[:15]
+
+    # 定制版布料
     new_data[:8] = data[:8]
     new_data[8] = data[15]
     new_data[9] = data[14]
