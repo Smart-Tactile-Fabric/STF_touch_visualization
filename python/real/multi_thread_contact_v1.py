@@ -71,20 +71,21 @@ def readThread(serDev):
             if len(line) < 10:  # 如果读取到一行数据并且长度小于10
                 if current is not None and len(current) == 16:  # 如果当前行数据已完整
                     current_array = np.array(current)  # 将当前数据行转为NumPy数组
+                    temp = 0
                     # 重新排列行数据，调整帧的顺序
                     # 标准版布料
-                    # new[:15, :] = current_array[:15, :] + temp  # 前15行保持不变
+                    new[:15, :] = current_array[:15, :] + temp  # 前15行保持不变
 
                     # 定制版布料
-                    new[:8, :] = current_array[:8, :] + temp  # 前8行保持不变
-                    new[8, :] = current_array[15, :] + temp
-                    new[9, :] = current_array[14, :] + temp
-                    new[10, :] = current_array[13, :] + temp
-                    new[11, :] = current_array[12, :] + temp
-                    new[12, :] = current_array[11, :] + temp
-                    new[13, :] = current_array[10, :] + temp
-                    new[14, :] = current_array[9, :] + temp
-                    new[15, :] = current_array[8, :] + temp
+                    # new[:8, :] = current_array[:8, :] + temp  # 前8行保持不变
+                    # new[8, :] = current_array[15, :] + temp
+                    # new[9, :] = current_array[14, :] + temp
+                    # new[10, :] = current_array[13, :] + temp
+                    # new[11, :] = current_array[12, :] + temp
+                    # new[12, :] = current_array[11, :] + temp
+                    # new[13, :] = current_array[10, :] + temp
+                    # new[14, :] = current_array[9, :] + temp
+                    # new[15, :] = current_array[8, :] + temp
 
                 backup = np.array(new)  # 备份当前帧
                 current = []  # 重置当前数据行
