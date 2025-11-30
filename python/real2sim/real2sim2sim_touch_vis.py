@@ -44,18 +44,18 @@ def rearrange_data(data):
     """ 将原始16x16数据中后8行倒序排布 """
     new_data = np.zeros_like(data)
     # 标准版布料
-    # new_data[:15] = data[:15]
+    new_data[:15] = data[:15]
 
     # 定制版布料
-    new_data[:8] = data[:8]
-    new_data[8] = data[15]
-    new_data[9] = data[14]
-    new_data[10] = data[13]
-    new_data[11] = data[12]
-    new_data[12] = data[11]
-    new_data[13] = data[10]
-    new_data[14] = data[9]
-    new_data[15] = data[8]
+    # new_data[:8] = data[:8]
+    # new_data[8] = data[15]
+    # new_data[9] = data[14]
+    # new_data[10] = data[13]
+    # new_data[11] = data[12]
+    # new_data[12] = data[11]
+    # new_data[13] = data[10]
+    # new_data[14] = data[9]
+    # new_data[15] = data[8]
     return new_data
 
 
