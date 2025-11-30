@@ -14,11 +14,11 @@
 
 (2) 触觉布料的标定教程：https://tcnemfaap5t4.feishu.cn/wiki/BSDXwU5HOibmS8kywGxcVirmnVh
 
-补充：
+补充说明：
 
 (1) 淘宝购买的布料均已出厂标定（采用MatrixArray_update），如果想要采用MatrixArray_normal正常标定版本，可以自行探索布料标定教程中的操作流程(兼容Linux系统与Windows系统).
 
-(2) 目前触觉布料有2个不同的版本：定制版与标准版，效果都差不多，只是标准版的制作工艺升级，具体的实物图片如下：
+(2) 目前触觉布料有2个不同的版本：定制版与标准版，效果都差不多，定制版属于纯手工制作，而标准版的制作工艺升级（制作效率提升），具体的实物图片如下：
 ![img.png](/image/img0.jpg)
 
 ## 2. Python
