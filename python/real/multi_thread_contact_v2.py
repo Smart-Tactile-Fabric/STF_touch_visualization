@@ -18,6 +18,9 @@ cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 THRESHOLD = 6
 NOISE_SCALE = 20
 
+# 定义全局变量
+flag = False
+
 # 初始化3D图形
 plt.ion()
 fig = plt.figure(figsize=(8, 6))  # 调整为更合适的尺寸
@@ -92,7 +95,7 @@ def readThread(serDev):
     num = 0
     t1 = 0
     backup = None
-    flag = False
+    # flag = False
     current = None
     while True:
         if serDev.in_waiting > 0:

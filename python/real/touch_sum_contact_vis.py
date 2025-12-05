@@ -14,6 +14,9 @@ contact_data_norm = np.zeros((16, 16))  # 初始化16x16的接触数据矩阵
 THRESHOLD = 12
 NOISE_SCALE = 60
 
+# 定义全局变量
+flag = False
+
 # 串口数据读取线程
 def readThread(serDev):
     global contact_data_norm, flag
@@ -21,7 +24,7 @@ def readThread(serDev):
     num = 0  # 已处理的帧数
     t1 = 0  # 用于计算帧率（FPS）
     backup = None  # 保存上一帧数据
-    flag = False  # 初始化状态标志
+    # flag = False  # 初始化状态标志
     current = None  # 当前帧数据
 
     while True:

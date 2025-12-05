@@ -18,6 +18,9 @@ cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 THRESHOLD = 12
 NOISE_SCALE = 60
 
+# 定义全局变量
+flag = False
+
 # 用于读取和处理串口数据的线程函数
 def readThread(serDev):
     global contact_data_norm, flag
@@ -25,7 +28,7 @@ def readThread(serDev):
     num = 0  # 已处理的帧数
     t1 = 0  # 用于计算帧率（FPS）
     backup = None  # 保存上一帧数据
-    flag = False  # 初始化状态标志
+    # flag = False  # 初始化状态标志
     current = None  # 当前帧数据
 
     while True:
@@ -119,7 +122,7 @@ def readThread(serDev):
 
 
 # 设置串口
-PORT = '/dev/ttyUSB0'
+PORT = '/dev/ttyUSB1'
 BAUD = 1000000
 serDev = serial.Serial(PORT, BAUD)  # 打开串口
 serDev.flush()  # 清空串口输入缓冲区

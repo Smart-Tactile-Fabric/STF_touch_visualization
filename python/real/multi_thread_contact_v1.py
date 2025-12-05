@@ -21,6 +21,9 @@ cv2.resizeWindow("Contact Data_left", WINDOW_WIDTH, WINDOW_HEIGHT)
 THRESHOLD = 6
 NOISE_SCALE = 20
 
+# 定义全局变量
+flag = False
+
 # 创建一个队列用于线程间传递数据
 data_queue = queue.Queue()
 
@@ -31,7 +34,7 @@ def readThread(serDev):
     num = 0  # 记录已读取的数据数量
     t1 = 0  # 时间戳，用于计算fps
     backup = None  # 用于备份当前的传感器数据
-    flag = False  # 标记是否完成初始化
+    # flag = False  # 标记是否完成初始化
     current = None  # 存储当前读取的行数据
 
     while True:
