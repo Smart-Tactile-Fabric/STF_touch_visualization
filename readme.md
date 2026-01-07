@@ -2,7 +2,7 @@
 
 #### Project Website(项目网页): https://smart-tactile-fabric.github.io/STF.github.io/
 
-【淘宝】https://item.taobao.com/item.htm?id=985668767003 CZ225 「【新品预售】压力传感器智能绑缚足底鞋垫机器人触觉柔性感知布料」点击链接直接打开 或者 淘宝搜索直接打开
+【淘宝】https://item.taobao.com/item.htm?id=985668767003 「【新品预售】压力传感器智能绑缚足底鞋垫机器人触觉柔性感知布料」点击链接直接打开 或者 淘宝搜索直接打开
 
 ## 1. Firmware
 
