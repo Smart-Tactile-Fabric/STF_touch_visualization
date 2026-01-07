@@ -122,7 +122,7 @@ def readThread(serDev):
 
 
 # 设置串口
-PORT = '/dev/ttyUSB1'
+PORT = '/dev/ttyUSB0'
 BAUD = 1000000
 serDev = serial.Serial(PORT, BAUD)  # 打开串口
 serDev.flush()  # 清空串口输入缓冲区
